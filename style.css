@@ -1,0 +1,43 @@
+<style>
+  body {
+    margin: 0;
+  }
+  h1 {
+    font-size: 45px;
+    color: black;
+    padding: 15px;
+    margin: 0;
+    background-image: url('images/h1.png');
+    background-size: 100%;
+  }
+  .header a {
+    color: white;
+    text-decoration: none;
+  }
+  .nav-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: darkslategray;
+    list-style-type: none;
+  }
+  .nav-item {
+    padding: 15px;
+  }
+  .nav-item:hover {
+    background-color: #366868;
+  }
+  .nav-item a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+  }
+
+  .nav-item:nth-child(1) {
+    background-color: lightseagreen;
+    width: 80px;
+  }
+
+</style>
